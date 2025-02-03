@@ -1,0 +1,39 @@
+.form {
+    padding: 46px 0px;
+}
+
+.header-title {
+    margin-bottom: 40px;
+}
+
+.form-item-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px
+}
+
+.form-item-grid>div {
+    margin: 0px 0px 30px 0px
+}
+
+.form-item-grid>div>div {
+    margin: 4px 0px 0px 0px;
+    color: var(--error-color);
+    text-align: justify;
+    padding-left: 4vw;
+    width: 75%;
+}
+
+.form-input {
+    padding: 8px;
+    width: 75%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}

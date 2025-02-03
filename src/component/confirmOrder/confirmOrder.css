@@ -1,0 +1,22 @@
+.order-number {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.order-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .order-number {
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .order-info {
+        flex-direction: column;
+    }
+}

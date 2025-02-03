@@ -1,0 +1,86 @@
+.item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.item-details {
+    width: -webkit-fill-available;
+    margin: 0 20px;
+    overflow: scroll;
+}
+
+.item-text-detail {
+    height: 170px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.item-name {
+    display: flex;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.item-description {
+    display: flex;
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.item-price {
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.item-discount {
+    text-align: justify;
+    color: var(--dicount-color);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    background-color: var(--primery-color);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primery-color-dark);
+}
+
+.item-buy-button {
+    display: flex;
+    justify-content: end;
+}
+
+.buy-button {
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    background-color: var(--primery-color);
+}
+
+.buy-button:hover {
+    background-color: var(--primery-color-dark);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
